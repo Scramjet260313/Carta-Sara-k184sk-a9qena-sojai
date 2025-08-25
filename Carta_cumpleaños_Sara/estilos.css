@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(to right, #3a013a, #543797);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.carta {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  text-align: center;
+  max-width: 500px;
+}
+
+button {
+  background-color: #111111;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3a013a;
+}
+
+.oculto {
+  display: none;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #8d038dd3;
+}
+
+.imagen{
+    max-width: 250px;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
